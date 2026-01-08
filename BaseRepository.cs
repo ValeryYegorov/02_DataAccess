@@ -4,7 +4,7 @@ namespace DataAccess;
 
 public class BaseRepository : IBaseRepository
 {
-    public HelloReply GetHelloReply(string requestName)
+    public HelloReply GetHelloReplyTest(string requestName)
     {
         return new HelloReply
         {
